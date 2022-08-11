@@ -13,7 +13,7 @@ import SiteLink from '@/components/SiteLink.vue'
 
 		<SiteLink
 			title="Gym Tool"
-			href="https://jolly-gumption-ea3648.netlify.app"
+			href="https://zachs-gym-tool.netlify.app"
 			github="GymTool"
 			uses="Nuxt3 and Ionic"
 		>
