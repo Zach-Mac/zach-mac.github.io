@@ -1,5 +1,6 @@
 <script setup>
 import { ref } from 'vue'
+import GitLink from '@/components/GitLink.vue'
 
 const props = defineProps({
 	title: {
@@ -19,11 +20,6 @@ const props = defineProps({
 		default: ''
 	}
 })
-
-const github = ref(props.github)
-if (github.value && !github.value.includes('github.com')) {
-	github.value = 'https://github.com/Zach-Mac/' + github.value
-}
 
 const link = ref(null)
 
@@ -45,7 +41,7 @@ function onCardClick() {
 		</h2>
 		<p class="uses">Made with {{ uses }}</p>
 		<p><slot></slot></p>
-		<a v-if="github" :href="github">Github</a>
+		<GitLink :href="github" />
 	</div>
 </template>
 

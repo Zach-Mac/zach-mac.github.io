@@ -1,11 +1,14 @@
 <script setup>
 import SiteLink from '@/components/SiteLink.vue'
+import GitLink from '@/components/GitLink.vue'
 </script>
 
 <template>
 	<div class="container">
 		<h1>Zach's Home Site</h1>
-		<h3>Created with Vue + Vite</h3>
+		<h5>Created with Vue + Vite</h5>
+
+		<a href="https://github.com/Zach-Mac/">https://github.com/Zach-Mac/</a>
 
 		<div class="spacer">
 			<h2>Recent projects:</h2>
@@ -13,19 +16,14 @@ import SiteLink from '@/components/SiteLink.vue'
 
 		<SiteLink
 			title="Gym Tool"
+			uses="Nuxt3 and Ionic"
 			href="https://zachs-gym-tool.netlify.app"
 			github="GymTool"
-			uses="Nuxt3 and Ionic"
 		>
 			Tool for creating gym schedules
 		</SiteLink>
 
-		<SiteLink
-			title="Vue Formulas"
-			href=""
-			uses="Nuxt3 and Ionic"
-			github="VueFormulas"
-		>
+		<SiteLink title="Vue Formulas" uses="Nuxt3 and Ionic" href="" github="">
 			Formula calculator components for vue. Sample page created for my
 			gen chem class
 		</SiteLink>
