@@ -23,7 +23,11 @@ import GitLink from '@/components/GitLink.vue'
 			Tool for creating gym schedules
 		</SiteLink>
 
-		<SiteLink title="Vue Formulas" uses="Nuxt3 and Ionic" href="" github="">
+		<SiteLink title="Vue Formulas" 
+			  uses="Nuxt3 and Ionic" 
+			  href="https://zachs-vue-formulas.netlify.app" 
+			  github="VueFormulas"
+		>
 			Formula calculator components for vue. Sample page created for my
 			gen chem class
 		</SiteLink>
