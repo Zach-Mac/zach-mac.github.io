@@ -17,7 +17,7 @@ import GitLink from '@/components/GitLink.vue'
 		<SiteLink
 			title="Gym Tool"
 			uses="Nuxt3 and Ionic"
-			href="https://zachs-gym-tool.netlify.app"
+			href="https://zachsgymtool.vercel.app"
 			github="GymTool"
 		>
 			Tool for creating gym schedules
