@@ -15,12 +15,23 @@ import GitLink from '@/components/GitLink.vue'
 		</div>
 
 		<SiteLink
-			title="Gym Tool"
+			title="Zachs Flags"
 			uses="Nuxt3 and Ionic"
-			href="https://zachsgymtool.vercel.app"
-			github="GymTool"
+			href="https://zachsflags.vercel.app"
+			github="FlagCompare"
 		>
-			Tool for creating gym schedules
+			View country flags side by side
+		</SiteLink>
+
+		<SiteLink
+			title="Zachs Tools"
+			uses="Nuxt3 and Ionic"
+			href="https://zachstools.vercel.app"
+			github="ZachsTools"
+		>
+			Set of tools
+			Gym Tool: to create workout schedules
+			Calendar Tool: to quickly add/move many events on Google Calendar 
 		</SiteLink>
 
 		<SiteLink title="Vue Formulas" 
